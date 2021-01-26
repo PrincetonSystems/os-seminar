@@ -113,3 +113,22 @@ main {
     letter-spacing: -1px;
   }
 }
+
+table {
+  margin: 2em;
+  width: calc(100% - 4em);
+  border-collapse: collapse;
+  tbody tr:nth-child(odd) {
+    background-color: #ddd;
+  }
+  th {
+    text-align: center;
+  }
+  td {
+    border-right: 1px solid black;
+    padding: 0.5em 1em;
+    &:last-child {
+      border-right: none;
+    }
+  }
+}
