@@ -1,5 +1,6 @@
 ---
 layout: page
+title: Term Project
 ---
 
 Each student (or in groups) must submit a final report and

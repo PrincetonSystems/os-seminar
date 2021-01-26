@@ -1,5 +1,6 @@
 ---
 layout: page
+title: Syllabus
 ---
 
 Instructor: [Amit Levy](https://amitlevy.com)\
