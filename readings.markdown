@@ -3,8 +3,20 @@ layout: page
 title: Readings
 ---
 
-Annotations for readings in Perusall are always due noon, Princeton time, the day before
+Perusall is collaborative annotation tool we'll be using to read the papers
+assigned for this course. For each reading, you are required to add five (5)
+annotations, questions, or responses. You'll be able to see each others
+comments and respond.
+  - Go to <https://app.perusall.com>, click Login, and then either log in using your
+    Facebook, Twitter, or Google account, or create an account using your
+    email address and a password.
+  - Select "Create or enroll in a course"
+  - Select "I am a student" and enter the course code `LEVY-FA26P` to join the course.
+
+Annotations for readings in [Perusall](https://app.perusall.com/courses/cos-598a-operating-system-trade-offs-performance-extensibility-and-security) are always due noon, Princeton time, the day before
 class.
+
+# Registering for Perusall
 
 ## What is an Operating System?
 1. _The Design of the Venus Operating System_, Barbara Liskov
@@ -25,7 +37,7 @@ class.
 ## Extensible Kernels
 
 6. _Exokernel: An Operating System Architecture for Application-Level Resource Management_, Dawson R. Engler, M. Frans Kaashoek, and James O'Toole Jr
-14. _Extensibility, Safety and Performance in the SPIN Operating System_, Brian N. Bershad, Stefan Savage, Przemysław Pardyak, Emin G¨un Sirer, Marc E. Fiuczynski, David Becker, Craig Chambers, Susan Eggers
+14. _Extensibility, Safety and Performance in the SPIN Operating System_, Brian N. Bershad, Stefan Savage, Przemysław Pardyak, Emin Gün Sirer, Marc E. Fiuczynski, David Becker, Craig Chambers, Susan Eggers
 15. _Multiprogramming a 64 kB Computer Safely and Efficiently_, Amit Levy, Bradford Campbell, Branden Ghena, Daniel B. Giffin, Pat Pannuto, Prabal Dutta, Philip Levis
 
 ## High Performance Kernels

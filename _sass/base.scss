@@ -1,4 +1,6 @@
-h1, h2, h3, h4, div, body {
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+
+body {
   margin: 0;
   padding: 0;
 }
@@ -15,6 +17,39 @@ body {
 
 header, main, footer {
   padding: 1em 2em;
+}
+
+label[for="toggle_menu"], input {
+  display: none;
+}
+
+#toggle_menu ~ label[for="toggle_menu"] {
+  div {
+    background-color: white;
+    height: 5px;
+    width: 35px;
+    margin: 6px auto;
+    opacity: 1;
+    transition: inherit;
+  }
+  transition: all 0.3s ease;
+}
+
+#toggle_menu:checked ~ label[for="toggle_menu"] {
+  div {
+    height: 0;
+    width: 0;
+    margin: auto auto 0 auto;
+  }
+  div:last-of-type {
+    display: block;
+    background: none;
+    width: 0; 
+    height: 0; 
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: calc(5px * 3) solid white;
+  }
 }
 
 header {
@@ -39,7 +74,13 @@ header {
   display: grid;
   grid-template-areas: "title nav"
                        "subtt subtt";
+  grid-template-columns: 1fr auto;
   grid-gap: 1em;
+  h1, h2, h3, h4 {
+    margin: 0;
+    padding: 0;
+  }
+
   h1 {
     grid-area: title;
   }
@@ -71,15 +112,25 @@ header {
   }
 }
 
-@media all and (max-width: 900px) {
+@media all and (max-width: 1024px) {
   header {
-    position: relative;
     grid-template-areas: "title"
                          "subtt"
                          "nav";
-    nav ul li {
-      flex-basis: 100%;
-      padding: 1em 0 0 0;
+    nav {
+      text-align: center;
+      label[for="toggle_menu"] {
+        display: inline-block;
+        text-align: center;
+      }
+      ul li {
+        flex-basis: 100%;
+        padding: 1em 0 0 0;
+      }
+
+      input[type="checkbox"]:not(:checked) ~ ul {
+        display: none;
+      }
     }
   }
 }
@@ -87,15 +138,19 @@ header {
 main {
   max-width: 1140px;
   margin: 2em auto;
-  h1 {
-    max-width: 600px;
+  .title {
+    h1, h2 {
+      padding: 0;
+      margin: 0;
+    }
+    display: inline-block;
     border-width: 0;
     border-color: #800020;
     border-style: solid;
     border-left-width: 5px;
     border-bottom-width: 5px;
     border-radius: 0 0 0 5px;
-    padding-left: 10px;
+    padding: 0 20px 0 10px;
   }
 }
 

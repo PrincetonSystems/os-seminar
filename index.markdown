@@ -6,7 +6,7 @@ title: Syllabus
 Instructor: [Amit Levy](https://amitlevy.com)\
 Email: <aalevy@cs.princeton.edu>\
 Office Hours: By appointment\
-Location: TBD (probably Zoom)
+Location: Zoom (check your Ed Discussion for link)
 
 Systems need to balance how much extensibility, safety, and performance they
 provide applications. This is one of the fundamental trade-offs in system
@@ -14,16 +14,20 @@ design. The goal of this seminar is to make you a better systems builder, paper
 reader, and systems researcher, by identifying this trade-off in various
 settings and thinking of ways to subsume it.
 
-
 ## Deliverables
 
-There is neither a midterm nor a final exam for this course.
+There is neither a midterm nor a final exam for this course. Instead, grades are based on participation in class discussions, reading annotations, and 
 
-Each week we will read 2-4 papers from the systems literature. You are
-required to make 5 substantive annotations on each paper using Perusall
-by noon the day before class (you'll still be able to respond to each
-other after the deadline. Your annotations can be questions, summaries,
-or insights, but it's important to engage with the reading.
+Each week we will read 2-4 papers from the systems literature. Many of these
+papers are dense with information. Understanding them in depth _requires_
+reading _actively_.
+
+To facilitate engagement, you are required to make 5 substantive annotations on
+each paper using Perusall by noon the day before class (you'll still be able to
+respond to each other after the deadline). An annotation can be a question,
+summary, or insight. You'll be able to see, and comment on, other students'
+annotations. Please do so (though you are not _required_ to comment in excess
+of your annotations)!
 
 In addition, each student (or in groups) must submit a final report and
 give a final presentation. You have a choice of either:

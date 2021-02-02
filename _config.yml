@@ -29,6 +29,19 @@ sass:
   sass_dir: _sass
   style: compressed
 
+collections:
+  notes:
+    output: true
+    permalink: /:collection/:title
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "notes"
+    values:
+      layout: "notes"
+
 exclude:
   - .sass-cache/
   - .jekyll-cache/
