@@ -114,6 +114,7 @@ header {
 
 @media all and (max-width: 1024px) {
   header {
+    position: relative;
     grid-template-areas: "title"
                          "subtt"
                          "nav";
