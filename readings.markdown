@@ -11,7 +11,7 @@ comments and respond.
     Facebook, Twitter, or Google account, or create an account using your
     email address and a password.
   - Select "Create or enroll in a course"
-  - Select "I am a student" and enter the course code `LEVY-FA26P` to join the course.
+  - Select "I am a student" and enter the course code `LEVY-FVDQB` to join the course.
 
 Annotations for readings in [Perusall](https://app.perusall.com/courses/cos-598a-operating-system-trade-offs-performance-extensibility-and-security) are always due noon, Princeton time, the day before
 class.

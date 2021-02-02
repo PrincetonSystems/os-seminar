@@ -6,39 +6,6 @@ title: "What is an Operating System?"
 
 # Introductions
 
-## Students
-
-  * Name
-
-  * Masters? PhD? Year?
-
-  * Areas of interest?
-
-  * What projects are you working on?
-
-  * Recent work you enjoyed
-
-## Me first
-
-  * Who am I?
-
-    * Amit Levy
-
-    * New Assistant Professor
-
-    * "Secure": OS, distributed systems, storage systems, web platforms... really systems in general
-
-      - Building systems that are as flexible as _reasonable_ for application developers
-
-    * Most active current work is a secure operating system for low-memory microcontrollers
-
-      * Also looking at co-designing hardware/language/OS, general kernel
-        security, distributed cache characterization with Wyatt, runtimes for
-        FaaS, IoT network protocols. If someone wants to talk about the kitchen as an OS, please talk to me
-        too.
-
-    * Recent work I loved: Salsify by Sadjad Fouladi (NSDI 2018)
-
 # What will today's class look like?
 
   * Not going over the syllabus today, but high-level: paper-reading class, with a course project.
@@ -63,6 +30,8 @@ title: "What is an Operating System?"
 
     2. What problems does this work have? Where are there mistakes? What should
        I be skeptical about? How could it improve?
+
+  * In both modes: In what context was this written?
 
 # What is an "Operating System"?
 
@@ -126,9 +95,11 @@ title: "What is an Operating System?"
 
     * Does it have to be software?
 
-  * My definition: Software that manages a computer's resources for its users and their applications.
+  * My definition: Software that manages computing resources for its users and their applications.
 
-    * Generally try to provide: extensible, safe, and performant access to hardware and software services.
+    * Computing resources: storage, compute, network, devices (printers, sensors...), "software services," "data," etc...
+
+    * Generally try to provide: **extensible**, **safe**, and **performant** access to hardware and software services.
 
     * Triangle of trade-offs
 
@@ -146,11 +117,11 @@ title: "What is an Operating System?"
 
     * Every app can do exactly nothing---no way for apps to interfere with each other doing nothing.
 
-    * Examples? (key-value store get/set requests, sort of)
+    * Examples? Not really... But highly constrained application interfaces can do very little
 
   * What is performance? What is the most extreme form of performance?
 
-    * Only one application that has complete access
+    * Only one application that has unfettered access to compute resources
 
 # Isolation Mechanisms
 
@@ -160,9 +131,7 @@ How a system navigates this trade-off comes down to:
 
   * Abstractions and interfaces using that isolation mechanism
 
-    * E.g. light-weight contexts doesn't change the isolation mechanism, but designs a new interface for it.
-
-Three broad categories of isolation mechanisms:
+In shared memory computers, three broad categories of isolation mechanisms:
 
   * Hardware-based isolation
 
@@ -186,7 +155,7 @@ Three broad categories of isolation mechanisms:
 
   * Type-safe languages
 
-    * Examples: JavaScript in the browser, PHP on web servers
+    * Examples: JavaScript in the browser, PHP on web servers, WebAssembly in CDNs...
 
     * Advantages:
 
@@ -221,9 +190,7 @@ discuss what category of isolation mechanisms it uses and how.
 
   * Each time: what is the isolation mechanism? What is the API?
 
-Reading assignments:
-
-  * "The Slow Winter" - James Mickens
+Reading assignments for next time:
 
   * "The Design of the Venus Operating System" - Barbara Liskov
 
