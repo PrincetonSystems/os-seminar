@@ -23,6 +23,13 @@ label[for="toggle_menu"], input {
   display: none;
 }
 
+ol {
+  list-style: decimal;
+  li ol {
+    list-style: lower-alpha;
+  }
+}
+
 #toggle_menu ~ label[for="toggle_menu"] {
   div {
     background-color: white;

@@ -19,11 +19,11 @@ excluding figures and references.
 
 ## Due Dates
 
-October 22nd - Proposal due
+March 18th - Proposal due
 
-October 24nd - 10min Proposal presentations
+March 18th & 23rd - 10min Proposal presentations
 
-January 15th (Dean's day) - Final reports due
+May 4th (Dean's day) - Final reports due
 
-January 14th & 16th - Final presentations (regular class times)
+Last few class meetings (depends on number of projects) - Final presentations
 
