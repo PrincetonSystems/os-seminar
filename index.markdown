@@ -6,7 +6,7 @@ title: Syllabus
 Instructor: [Amit Levy](https://amitlevy.com)\
 Email: <aalevy@cs.princeton.edu>\
 Office Hours: By appointment\
-Location: [Zoom](https://praxis.cs.princeton.edu/redirect/zoom.php) (requires CS authentication to access)
+Location: [Zoom](https://praxis.cs.princeton.edu/redirect/zoom.php) (requires Princeton login to access)
 
 Systems need to balance how much extensibility, safety, and performance they
 provide applications. This is one of the fundamental trade-offs in system
