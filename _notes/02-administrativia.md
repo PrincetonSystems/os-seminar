@@ -36,9 +36,9 @@ Read the paper _at least_ twice:
 
   2. OK, time to read in depth.
 
-     1. What are the authors asking you to make? Are they reasonable? If the
-        assumption are wrong (or not-applicable), does their argument still
-        hold water?
+     1. What assumptions are the authors asking you to make? Are they
+        reasonable? If the assumption are wrong (or not-applicable), does their
+        argument still hold water?
      2. What assumptions _must_ you make, even though the authors don't say so explicitly?
      3. What claims does the paper make that _must_ be supported?
          * Is it in the citations?
