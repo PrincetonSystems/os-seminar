@@ -4,6 +4,15 @@ number: 4
 title: Isolation, flexibility, but not performance!
 ---
 
+Background
+==========
+
+  * Are context switches expensive?
+
+  * How do you lift OS operations to user-space?
+
+  * Why is giving user space access to hardware dangerous? (e.g. DMA)
+
 Microkernels
 ============
 
@@ -59,3 +68,10 @@ Microkernels
       * Not just a matter of recompiling for a different architecture, but different data structures and algorithms
 
     * L4: mechanism vs policy
+
+Questions
+=========
+
+  * User-level pagers and security
+
+  * Relinking vs dynamically update OS functionality
