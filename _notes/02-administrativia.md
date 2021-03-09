@@ -64,7 +64,7 @@ The main graded component (40%) of the class is a term project, roughly
 equivalent to a workshop submission or the literature review section of a
 thesis. These can be done along, or in groups, and involve four deliverables:
 
-1. 1-2 page proposal, due March 9th
+1. 1-2 page proposal, due March 18th
 2. Proposal presentation (~10 minutes per project) on March 18th & 23rd
 3. A 6-page (USENIX-style) report due on Dean's day (May 4th)
 4. Final presentation, in the last few class meetings (depending on the number of projects)

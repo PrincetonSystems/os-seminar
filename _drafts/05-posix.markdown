@@ -2,6 +2,13 @@
 POSIX Paper
 ===========
 
+  * Points:
+    * Why not server OSs? Would the results have been different? Is that _more_ relevant to POSIX?
+    * Why do this work if there is closely related prior/concurrent work?
+    * Gotta built applications!
+    * Event-versus-thread development
+    * Graphics a good argument for extensible operating systems
+
   * Background
 
     - Authors:

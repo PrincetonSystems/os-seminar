@@ -24,7 +24,7 @@ _The calendar is still in flux. Please check back soon for actual dates and an a
 
 ### Project Due Dates
 
-3/09 - Proposal due
+3/18 - Proposal due
 
 3/18 & 3/23 - 10min Proposal presentations
 
